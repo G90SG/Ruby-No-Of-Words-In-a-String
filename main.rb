@@ -1,9 +1,9 @@
-#requests input from the user
+# Requests input from the user
 puts "Please tell me a sentence and I will tell you how many words there are: "
-#obtains input from the keyboard
+# Obtains input from the keyboard using 'gets' and assigns to 'string' variable. Uses .chomp to remove new line character
 string = gets.chomp
-#splits ther string and calcs length
+# Splits the string using '.split' and calcs number of words in using '.length'
 puts string.split.length
-#reverse the string
+# Just for Fun... '.reverse' the string
 puts "Surprise! Here is your sentence reversed:"
 puts string.reverse!
